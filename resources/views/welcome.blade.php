@@ -9,8 +9,7 @@
     {{-- qui servono gli // invece dei .. --}}
 </head>
 <body>
-    <h1 class="text-center bg-warning">Ciao da vite!</h1>
-    {{-- <img src="{{ Vite::asset('resources/img/logo.png') }}" alt=""> --}}
+    @include('partials.header')    {{-- <img src="{{ Vite::asset('resources/img/logo.png') }}" alt=""> --}}
     {{-- per inserire le immagini si usa questo percorso --}}
 </body>
 </html>
