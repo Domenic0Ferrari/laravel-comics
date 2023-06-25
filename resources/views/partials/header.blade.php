@@ -5,24 +5,14 @@
             <a href="#" class="text-light link-underline-opacity-0 link-underline">ADDITIONAL DC SITES</a>
         </div>
     </div>
-    <div class="container">
+    <div class="container d-flex justify-content-start gap-5">
         <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="logo">
-        <ul>
-            <li>
-                <a href="#">CIAO</a>
+        <ul class="d-flex gap-3 align-items-center nav">
+            @foreach ($navItems as $item)
+            <li class="nav-item">
+                <a href="#" class="text-decoration-none">{{ $item['title'] }}</a>
             </li>
-            <li>
-                <a href="#">CIAO</a>
-            </li>
-            <li>
-                <a href="#">CIAO</a>
-            </li>
-            <li>
-                <a href="#">CIAO</a>
-            </li>
-            <li>
-                <a href="#">CIAO</a>
-            </li>
+            @endforeach
         </ul>
     </div>
 </header>
