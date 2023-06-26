@@ -4,12 +4,12 @@
 
 <header>
     <div class="bg-primary">
-        <div class="container d-flex justify-content-end">
+        <div class="container d-flex justify-content-end gap-5">
             <a href="#" class="text-light link-underline-opacity-0 link-underline">DC POWER VISA</a>
             <a href="#" class="text-light link-underline-opacity-0 link-underline">ADDITIONAL DC SITES</a>
         </div>
     </div>
-    <div class="container d-flex justify-content-start gap-5">
+    <div class="container d-flex justify-content-start gap-5 p-2">
         <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="logo">
         <ul class="d-flex gap-3 align-items-center nav">
             @foreach ($navItems as $item)

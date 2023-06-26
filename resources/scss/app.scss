@@ -22,7 +22,6 @@
 }
 
 #main-bottom {
-    height: 120px;
     padding: 1rem 0;
     background-color: #0282F9;
 }
@@ -30,5 +29,11 @@
 // FOOTER-TOP
 #ft-top {
     height: 350px;
-    background-image: none; //assegnare img di background
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ft-btm {
+    background-color: #2C2C2C;
 }
