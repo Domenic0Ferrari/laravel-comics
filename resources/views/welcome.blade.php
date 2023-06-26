@@ -9,7 +9,10 @@
     {{-- qui servono gli // invece dei .. --}}
 </head>
 <body>
-    @include('partials.header')    {{-- <img src="{{ Vite::asset('resources/img/logo.png') }}" alt=""> --}}
+    {{-- <img src="{{ Vite::asset('resources/img/logo.png') }}" alt=""> --}}
     {{-- per inserire le immagini si usa questo percorso --}}
+    @include('partials.header')    
+    @include('partials.main')    
+    @include('partials.footer')    
 </body>
 </html>

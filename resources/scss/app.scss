@@ -1,1 +1,21 @@
 @import "~bootstrap/scss/bootstrap";
+
+// HEADER
+#jumbotron {
+    height: 400px;
+    background-image: url('../img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// MAIN
+#main-bottom {
+    height: 120px;
+    //aggiungere background color
+}
+
+// FOOTER-TOP
+#ft-top {
+    height: 350px;
+    background-image: none; //assegnare img di background
+}
