@@ -1,3 +1,7 @@
+@php
+    $navItems = config('navMenu');
+@endphp
+
 <header>
     <div class="bg-primary">
         <div class="container d-flex justify-content-end">
@@ -16,6 +20,5 @@
         </ul>
     </div>
     <div id="jumbotron">
-        
     </div>
 </header>
