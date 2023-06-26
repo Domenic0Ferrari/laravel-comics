@@ -11,19 +11,26 @@
                 </div>
                 @endforeach
             </div>
-            <button>LOAD MORE</button>
+            <div class="d-flex justify-content-center pb-4">
+                <button class="text-center bg-primary">
+                    LOAD MORE
+                </button>
+            </div>
         </div>
     </div>
     {{-- parte inferiore --}}
     <div id="main-bottom">
         <div class="container">
-            {{-- creare un array e ciclare gli elementi della lista --}}
-            <ul> 
-                <li>
-                    <img src="#" alt="#">
-                    <p>TESTO</p>
-                </li>
-            </ul>
+            <div class="row">
+                @foreach ($mainLinks as $link)
+                <div class="col">
+                    <div>
+                        <img src="{{ Vite::asset($link['image']) }}" alt="#">
+                    </div>
+                    <h3>{{ $link['text'] }}</h3>
+                </div>    
+                @endforeach                
+            </div>
         </div>
     </div>
 </main>
