@@ -32,11 +32,11 @@
     <div class="container">
         <div class="row">
             @foreach ($mainLinks as $link)
-            <div class="col">
+            <div class="col d-flex align-items-center gap-3">
                 <div>
                     <img src="{{ Vite::asset($link['image']) }}" alt="#">
                 </div>
-                <h3>{{ $link['text'] }}</h3>
+                <h3 class="main-text">{{ $link['text'] }}</h3>
             </div>    
             @endforeach                
         </div>

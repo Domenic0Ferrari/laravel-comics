@@ -22,8 +22,17 @@
 }
 
 #main-bottom {
-    padding: 1rem 0;
+    padding: 2.5rem 0;
     background-color: #0282F9;
+
+    img {
+        height: 50px;
+    }
+
+    .main-text {
+        font-size: 16px;
+        color: white;
+    }
 }
 
 // FOOTER-TOP

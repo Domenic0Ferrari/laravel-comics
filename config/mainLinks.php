@@ -14,7 +14,7 @@ return [
         "text" => "SUBSCRIPTION"
     ],
     [
-        "image" => "resources/img/buy-comics-shoo-locator.png",
+        "image" => "resources/img/buy-comics-shop-locator.png",
         "text" => "COMIC SHOP LOCATOR"
     ],
     [
