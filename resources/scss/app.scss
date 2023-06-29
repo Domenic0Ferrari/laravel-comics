@@ -41,8 +41,34 @@
     background-image: url(../img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        a {
+            color: grey;
+            text-decoration: none;
+        }
+    }
 }
+
 
 #ft-btm {
     background-color: #2C2C2C;
+
+    .my-btn {
+        background-color: #2C2C2C;
+        border: 2px solid #0282F9;
+        color: white;
+        padding: .5rem;
+    }
+
+    ul {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+        }
+    }
 }

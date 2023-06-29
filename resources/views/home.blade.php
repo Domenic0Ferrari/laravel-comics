@@ -18,7 +18,7 @@
             @endforeach
         </div>
         <div class="d-flex justify-content-center pb-4">
-            <button class="text-center bg-primary">
+            <button type="button" class="btn btn-primary">
                 LOAD MORE
             </button>
         </div>
